@@ -1,0 +1,101 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 2340
+License: Customer
+
+Current time: 	Sat Mar 30 17:06:35 SGT 2024
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 148 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ansel
+User home directory: C:/Users/ansel
+User working directory: C:/Users/ansel/OneDrive/Desktop/BlackjackVivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/vivado.log
+Vivado journal file location: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/vivado.jou
+Engine tmp dir: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/.Xil/Vivado-2340-DESKTOP-3R59SEK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 583 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ansel\OneDrive\Desktop\BlackjackVivado\BlackjackProject.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.xpr 
+// [GUI Memory]: 59 MB (+59194kb) [00:00:04]
+// [Engine Memory]: 508 MB (+381123kb) [00:00:04]
+// Tcl Message: open_project C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ansel/OneDrive/Desktop/ee2026/BlackjackProject' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+948kb) [00:00:05]
+// [Engine Memory]: 559 MB (+26628kb) [00:00:05]
+// [GUI Memory]: 69 MB (+2884kb) [00:00:05]
+// [GUI Memory]: 79 MB (+7439kb) [00:00:06]
+// Project name: BlackjackProject; location: C:/Users/ansel/OneDrive/Desktop/BlackjackVivado; part: xc7a35tcpg236-1
+// [Engine Memory]: 591 MB (+4909kb) [00:00:06]
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 595 MB. GUI used memory: 37 MB. Current time: 3/30/24 5:06:36 PM SGT
+// Elapsed time: 11 seconds
+closeMainWindow("BlackjackProject - [C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.xpr] - Vivado 2018.2"); // ck
+// A (ck): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (ck)
