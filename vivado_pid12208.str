@@ -1,0 +1,135 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 12208
+License: Customer
+
+Current time: 	Sat Mar 30 17:19:55 SGT 2024
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 148 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ansel
+User home directory: C:/Users/ansel
+User working directory: C:/Users/ansel/OneDrive/Desktop/BlackjackVivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ansel/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/vivado.log
+Vivado journal file location: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/vivado.jou
+Engine tmp dir: 	C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/.Xil/Vivado-12208-DESKTOP-3R59SEK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 617 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ansel\OneDrive\Desktop\BlackjackVivado\MODS.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.xpr 
+// [GUI Memory]: 57 MB (+57351kb) [00:00:04]
+// [Engine Memory]: 507 MB (+380488kb) [00:00:04]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 72 MB (+12861kb) [00:00:05]
+// [Engine Memory]: 542 MB (+10083kb) [00:00:05]
+// [GUI Memory]: 90 MB (+14402kb) [00:00:06]
+// [Engine Memory]: 599 MB (+31476kb) [00:00:06]
+// Tcl Message: open_project C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/elegst/Documents/EE2026 Project/2023-24 Sem 1/To provide/MODS/.Xil/Vivado-31116-ECE-1CZ20808VG/PrjAr/_X_' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// Project name: MODS; location: C:/Users/ansel/OneDrive/Desktop/BlackjackVivado; part: xc7a35tcpg236-1
+// [GUI Memory]: 95 MB (+476kb) [00:00:06]
+dismissDialog("Open Project"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 38 MB. Current time: 3/30/24 5:19:56 PM SGT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Top_Student (Top_Student.v)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Oled_Display (Oled_Display.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Oled_Display (Oled_Display.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// Tcl Command: 'file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1'
+// B (ck): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1 
+// [Engine Memory]: 638 MB (+8659kb) [00:00:25]
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "my_basys3_constraints"); // X (C, B)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (B)
+dismissDialog("Create Constraints File"); // B (ck)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 16 seconds
+// Tcl Command: 'file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1/new/my_basys3_constraints.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/MODS.srcs/constrs_1/new/my_basys3_constraints.xdc 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 8); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my_basys3_constraints.xdc]", 9, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my_basys3_constraints.xdc]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("my_basys3_constraints.xdc", 310, 107); // ce (w, ck)
+typeControlKey((HResource) null, "my_basys3_constraints.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
