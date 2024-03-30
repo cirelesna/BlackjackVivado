@@ -99,3 +99,35 @@ closeMainWindow("BlackjackProject - [C:/Users/ansel/OneDrive/Desktop/BlackjackVi
 // A (ck): Exit Vivado: addNotify
 selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
 dismissDialog("Exit Vivado"); // A (ck)
+// Elapsed time: 143 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// B (ck): Create Constraints File: addNotify
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "my_basys3_constraints"); // X (C, B)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (B)
+dismissDialog("Create Constraints File"); // B (ck)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 15 seconds
+// Tcl Command: 'file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: file mkdir C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.srcs/constrs_1/new 
+// Tcl Message: close [ open C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.srcs/constrs_1/new/my_basys3_constraints.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 C:/Users/ansel/OneDrive/Desktop/BlackjackVivado/BlackjackProject.srcs/constrs_1/new/my_basys3_constraints.xdc 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my_basys3_constraints.xdc]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my_basys3_constraints.xdc]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("my_basys3_constraints.xdc", 274, 485); // ce (w, ck)
+typeControlKey((HResource) null, "my_basys3_constraints.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
